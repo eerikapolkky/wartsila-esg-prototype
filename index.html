@@ -2,20 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wärtsilä ESG Prototype</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Wärtsilä ESG & Circular Economy Prototype</h1>
-    <p>AI-assisted sustainability overview</p>
+<header class="hero">
+    <nav>
+        <h2>Wärtsilä ESG Prototype</h2>
+        <a href="#dashboard">Dashboard</a>
+    </nav>
+
+    <div class="hero-content">
+        <p class="tag">AI-assisted ESG reporting</p>
+        <h1>Wärtsilä Circular Economy & Sustainability Dashboard</h1>
+        <p>
+            A prototype website that summarises Wärtsilä’s sustainability information into
+            clear ESG themes, circular economy insights and visual dashboard indicators.
+        </p>
+    </div>
 </header>
 
-<section>
-    <h2>Overview</h2>
+<main>
+
+<section class="intro">
+    <h2>Project Overview</h2>
     <p>
-        Wärtsilä is a Finnish technology company focusing on sustainable solutions for marine and energy industries.
+        Wärtsilä is a Finnish technology company operating in the marine and energy sectors.
+        This prototype demonstrates how AI can support ESG reporting by simplifying long
+        sustainability reports into understandable summaries and dashboard views.
     </p>
 </section>
 
@@ -23,44 +39,102 @@
     <h2>ESG Summary</h2>
     <div class="cards">
         <div class="card">
+            <span>🌱</span>
             <h3>Environmental</h3>
-            <p>Decarbonisation, energy efficiency and emission reduction.</p>
+            <p>
+                Decarbonisation, energy efficiency, lifecycle optimisation and solutions that
+                support the transition towards lower-emission marine and energy systems.
+            </p>
         </div>
+
         <div class="card">
+            <span>👥</span>
             <h3>Social</h3>
-            <p>Employee wellbeing, safety and responsible supply chain.</p>
+            <p>
+                Employee wellbeing, occupational safety, human rights and responsible supply
+                chain practices across Wärtsilä’s global operations.
+            </p>
         </div>
+
         <div class="card">
+            <span>⚖️</span>
             <h3>Governance</h3>
-            <p>Ethics, ESG reporting and risk management.</p>
+            <p>
+                Ethical business conduct, transparent ESG reporting, risk management and
+                sustainability-related decision-making.
+            </p>
         </div>
     </div>
 </section>
 
-<section>
-    <h2>Circular Economy</h2>
-    <p>
-        Lifecycle services, maintenance and optimisation extend product lifetime and reduce waste.
-    </p>
+<section class="split">
+    <div>
+        <h2>Circular Economy</h2>
+        <p>
+            Wärtsilä supports circular economy through maintenance, modernisation,
+            retrofitting and lifecycle services. These actions extend the lifetime of existing
+            systems and reduce the need for unnecessary replacement.
+        </p>
+    </div>
+
+    <div class="highlight-box">
+        <h3>Key idea</h3>
+        <p>
+            Instead of only producing new equipment, circular economy focuses on keeping
+            existing assets useful for longer.
+        </p>
+    </div>
 </section>
 
 <section>
-    <h2>AI Insight</h2>
-    <p>
-        AI summarises ESG reports and converts them into simple dashboards.
+    <div class="ai-box">
+        <h2>🤖 How AI Was Used</h2>
+        <p>
+            AI was used to summarise Wärtsilä’s sustainability information into clear ESG
+            categories and circular economy themes. In a real system, AI could automatically
+            read annual ESG reports, extract key indicators, detect trends and update this
+            dashboard with new data.
+        </p>
+    </div>
+</section>
+
+<section id="dashboard">
+    <h2>ESG Dashboard</h2>
+    <p class="section-text">
+        Example dashboard indicators based on Wärtsilä’s public sustainability targets and ESG themes.
     </p>
+
+    <div class="kpi-grid" id="kpiGrid"></div>
 </section>
 
 <section>
-    <h2>Dashboard</h2>
-    <div id="dashboard"></div>
+    <h2>AI Summary Flow</h2>
+    <div class="flow">
+        <div>ESG Report</div>
+        <span>→</span>
+        <div>AI Summary</div>
+        <span>→</span>
+        <div>Dashboard</div>
+        <span>→</span>
+        <div>Decision Support</div>
+    </div>
 </section>
+
+<section class="sources">
+    <h2>Sources</h2>
+    <p>
+        Wärtsilä Sustainability Website<br>
+        Wärtsilä Annual Report 2024<br>
+        Wärtsilä Set for 30 sustainability targets
+    </p>
+</section>
+
+</main>
 
 <footer>
-    <p>Prototype project – AI-assisted ESG reporting</p>
+    <p>Prototype website for Circular Economy & AI assisted ESG reports</p>
 </footer>
 
 <script src="dashboard.js"></script>
-
 </body>
 </html>
